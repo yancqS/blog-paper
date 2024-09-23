@@ -1,5 +1,5 @@
 ---
-title: 如何对图片主题色进行提取
+title: Git 基础（第二章）
 date: '2024-09-25'
 cover: 'http://img.up-4ever.site/infinity-688645.jpg'
 top_img: 'http://img.up-4ever.site/infinity-688645.jpg'
@@ -7,6 +7,7 @@ tags:
   - Git
 categories:
   - Git
+abbrlink: 30cd1f9
 ---
 
 # Git 基础
