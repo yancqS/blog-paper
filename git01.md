@@ -1,5 +1,5 @@
 ---
-title: 如何对图片主题色进行提取
+title: git 简介(第一章)
 date: '2024-09-22'
 cover: 'https://img.up-4ever.site/20240302171921.jpg'
 top_img: 'https://img.up-4ever.site/20240302171921.jpg'
@@ -7,6 +7,7 @@ tags:
   - Git
 categories:
   - Git
+abbrlink: f90b6cc
 ---
 
 # git 简介
