@@ -20,7 +20,7 @@ git init
 ```
 2. 从其它服务器 克隆 一个已存在的 Git 仓库。
 ```shell
-git clome <url>
+git clone <url>
 ```
 
 ## 记录每次更新到仓库
