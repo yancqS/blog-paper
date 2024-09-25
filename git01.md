@@ -1,5 +1,5 @@
 ---
-title: git 简介(第一章)
+title: progit 第一章读书笔记
 date: '2024-09-22'
 cover: 'https://img.up-4ever.site/20240302171921.jpg'
 top_img: 'https://img.up-4ever.site/20240302171921.jpg'

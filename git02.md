@@ -1,5 +1,5 @@
 ---
-title: Git 基础（第二章）
+title: progit 第二章读书笔记
 date: '2024-09-25'
 cover: 'http://img.up-4ever.site/infinity-688645.jpg'
 top_img: 'http://img.up-4ever.site/infinity-688645.jpg'
