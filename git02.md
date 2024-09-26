@@ -212,7 +212,181 @@ $ git commit -a -m 'added new benchmarks'
  1 file changed, 5 insertions(+), 0 deletions(-)
 ```
 
-### 移除文件
+### 移动文件
 
+在 Git 中对文件改名，可以这么做:
 
+```shell
+git mv file_from file_to
+```
 
+它会恰如预期般正常工作。 实际上，即便此时查看状态信息，也会明白无误地看到关于重命名操作的说明:
+
+```shell
+$ git mv README.md README
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+    renamed:    README.md -> README
+```
+
+其实，运行git mv就相当于运行了下面三条命令:
+
+```shell
+mv README.md README
+git rm README.md
+git add README
+```
+
+如此分开操作，Git 也会意识到这是一次重命名，所以不管何种方式结果都一样。 两者唯一的区别在于，git mv 是一条命令而非三条命令，直接使用 git mv 方便得多。 不过在使用其他工具重命名文件时，记得在提交前 git rm删除旧文件名，再git add添加新文件名。
+
+## 查看提交历史
+
+回顾下提交历史可以通过`git log` 命令来完成：
+
+```shell
+$ git log
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon <schacon@gee-mail.com>
+Date:   Mon Mar 17 21:52:11 2008 -0700
+    changed the version number
+commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
+Author: Scott Chacon <schacon@gee-mail.com>
+Date:   Sat Mar 15 16:40:33 2008 -0700
+    removed unnecessary test
+commit a11bef06a3f659402fe7563abf99ad00de2209e6
+Author: Scott Chacon <schacon@gee-mail.com>
+Date:   Sat Mar 15 10:31:28 2008 -0700
+first commit
+```
+
+不传入任何参数的默认情况下，git log 会按时间先后顺序列出所有的提交，最近的更新排在最上面。正如你 所看到的，这个命令会列出每个提交的 SHA-1 校验和、作者的名字和电子邮件地址、提交时间以及提交说明。
+
+### 选项参数
+
+- `-p` 或 `--patch`:显示每次提交所引入的差异(按 补丁 的格式输出)。也可以限制显示的日志条目数量，例如使用 -2 选项来只显示最近的两次提交:
+
+```shell
+$ git log -p -2
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon <schacon@gee-mail.com>
+Date:   Mon Mar 17 21:52:11 2008 -0700
+    changed the version number
+diff --git a/Rakefile b/Rakefile
+index a874b73..8f94139 100644
+--- a/Rakefile
++++ b/Rakefile
+@@ -5,7 +5,7 @@ require 'rake/gempackagetask'
+ spec = Gem::Specification.new do |s|
+s.platform =
+     s.name      =
+-    s.version   =
++    s.version   =
+     s.author    =
+     s.email     =
+     s.summary   =
+Gem::Platform::RUBY
+"simplegit"
+"0.1.0"
+"0.1.1"
+"Scott Chacon"
+"schacon@gee-mail.com"
+"A simple gem for using Git in Ruby code."
+commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
+Author: Scott Chacon <schacon@gee-mail.com>
+Date:   Sat Mar 15 16:40:33 2008 -0700
+    removed unnecessary test
+diff --git a/lib/simplegit.rb b/lib/simplegit.rb
+index a0a60ae..47c6340 100644
+--- a/lib/simplegit.rb
++++ b/lib/simplegit.rb
+@@ -18,8 +18,3 @@ class SimpleGit
+     end
+	end -
+-if $0 == __FILE__
+-  git = SimpleGit.new
+-  puts git.show
+-end
+```
+
+- `--stat`: 查看每次提交的简单统计信息
+
+```shell
+$ git log --stat
+  commit ca82a6dff817ec66f44342007202690a93763949
+  Author: Scott Chacon <schacon@gee-mail.com>
+  Date:   Mon Mar 17 21:52:11 2008 -0700
+      changed the version number
+   Rakefile | 2 +-
+   1 file changed, 1 insertion(+), 1 deletion(-)
+  commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
+  Author: Scott Chacon <schacon@gee-mail.com>
+  Date:   Sat Mar 15 16:40:33 2008 -0700
+      removed unnecessary test
+   lib/simplegit.rb | 5 -----
+   1 file changed, 5 deletions(-)
+  commit a11bef06a3f659402fe7563abf99ad00de2209e6
+  Author: Scott Chacon <schacon@gee-mail.com>
+  Date:   Sat Mar 15 10:31:28 2008 -0700
+			first commit
+   README           |  6 ++++++
+   Rakefile         | 23 +++++++++++++++++++++++
+   lib/simplegit.rb | 25 +++++++++++++++++++++++++
+   3 files changed, 54 insertions(+)
+```
+
+- `--pretty`: 可以使用不同于默认格式的方式展示提交历史，比如 oneline 会将每个提交放在一行显示，在浏览大量的提交时非常有用：
+
+```shell
+$ git log --pretty=oneline
+ca82a6dff817ec66f44342007202690a93763949 changed the version number
+085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7 removed unnecessary test
+a11bef06a3f659402fe7563abf99ad00de2209e6 first commit
+```
+
+最有意思的是 format ，可以定制记录的显示格式:
+
+```shell
+$ git log --pretty=format:"%h - %an, %ar : %s"
+ca82a6d - Scott Chacon, 6 years ago : changed the version number
+085bb3b - Scott Chacon, 6 years ago : removed unnecessary test
+a11bef0 - Scott Chacon, 6 years ago : first commit
+```
+
+git log --pretty=format 常用的选项如下：
+
+| 选项 |                     说明                     |
+| ---- | :------------------------------------------: |
+| %H   |               提交的完整哈希值               |
+| %h   |               提交的简写哈希值               |
+| %T   |                树的完整哈希值                |
+| %t   |                树的简写哈希值                |
+| %P   |              父提交的完整哈希值              |
+| %p   |              父提交的简写哈希值              |
+| %an  |                  作者的名字                  |
+| %ae  |                作者的电子邮件                |
+| %ad  | 作者修订日期（可以用--date=选项 来定制格式） |
+| %ar  |      作者修订日期，按多久以前的方式显示      |
+| %cn  |                 提交者的名字                 |
+| %ce  |             提交者的电子邮件地址             |
+| %cd  |                   提交日期                   |
+| %cr  |            提交日期(距今多长时间)            |
+| %s   |                   提交说明                   |
+
+> 作者 和 提交者 之间究竟有何差别， 其实作者指的是实际作出修改的人，提交者指的是最后将此工 作成果提交到仓库的人。 所以，当你为某个项目发布补丁，然后某个核心成员将你的补丁并入项目时，你就是 作者，而那个核心成员就是提交者。
+
+当 oneline 或 format 与另一个 log 选项 --graph 结合使用时尤其有用，比如：
+
+```shell
+git log --pretty=format:"%h %s" --graph
+git log --pretty=oneline --graph
+```
+
+#### git log 常用选项
+
+| 选项 | 说明 |
+| ---- | :--: |
+|      |      |
+|      |      |
