@@ -280,20 +280,13 @@ index a874b73..8f94139 100644
 +++ b/Rakefile
 @@ -5,7 +5,7 @@ require 'rake/gempackagetask'
  spec = Gem::Specification.new do |s|
-s.platform =
-     s.name      =
--    s.version   =
-+    s.version   =
-     s.author    =
-     s.email     =
-     s.summary   =
-Gem::Platform::RUBY
-"simplegit"
-"0.1.0"
-"0.1.1"
-"Scott Chacon"
-"schacon@gee-mail.com"
-"A simple gem for using Git in Ruby code."
+     s.platform  = Gem::Platform::RUBY
+     s.name      = "simplegit"
+-    s.version   = "0.1.0"
++    s.version   = "0.1.1"
+     s.author    = ""Scott Chacon"
+     s.email     = "schacon@gee-mail.com"
+     s.summary   = "A simple gem for using Git in Ruby code."
 commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
 Author: Scott Chacon <schacon@gee-mail.com>
 Date:   Sat Mar 15 16:40:33 2008 -0700
