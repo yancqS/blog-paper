@@ -4,10 +4,9 @@ date: '2020-10-20'
 cover: 'http://img.up-4ever.site/20201104182622.jpg'
 top_img: 'http://img.up-4ever.site/12.jpeg'
 tags:
-  - 前端开发
-  - JavaScript
+  - 深拷贝
 categories:
-  - JavaScript
+  - Javascript
 abbrlink: 6bd056
 ---
 # JSON.parse(JSON.stringify(obj))实现深拷贝的缺点

@@ -1,10 +1,8 @@
 ---
 title: 高性能JavaScript——第一章
-tags:
-  - 读书笔记
-  - JavaScript
 categories:
-  - JavaScript
+  - 读书笔记
+  - Javascript
 date: '2020-08-28'
 cover: 'http://img.up-4ever.site/3378128262-5d07af0750999.png'
 top_img: 'http://img.up-4ever.site/20210420224048.jpeg'

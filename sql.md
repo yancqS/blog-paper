@@ -2,8 +2,6 @@
 title: SQL入门学习
 cover: 'http://img.up-4ever.site/infinity-9198993.jpg'
 top_img: 'http://img.up-4ever.site/infinity-9198993.jpg'
-tags:
-  - SQL
 categories:
   - SQL
 abbrlink: 6065ed5c

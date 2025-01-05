@@ -3,12 +3,10 @@ title: How JavaScript works - memory management + how to handle 4 common memory 
 date: '2021-06-01'
 cover: 'http://img.up-4ever.site/20210517122820.png'
 top_img: 'http://img.up-4ever.site/infinity-1901105%20(1).jpg'
-tags:
+categories:
   - 翻译
   - 转载
-  - JavaScript
-categories:
-  - JavaScript
+  - Javascript
 abbrlink: 39d92d48
 ---
 

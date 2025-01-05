@@ -3,10 +3,10 @@ title: 项目中用SVG画曲线和动画的一次记录
 date: '2020-12-16'
 cover: 'http://img.up-4ever.site/20201216172057.jpg'
 top_img: 'http://img.up-4ever.site/infinity-9198993.jpg'
-tags:
-  - SVG
 categories:
-  - SVG
+  - 前端开发
+  - VIS
+  - Vue
 abbrlink: '21233402'
 ---
 # 项目中用SVG画曲线和动画的一次记录

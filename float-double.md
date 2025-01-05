@@ -4,9 +4,11 @@ date: '2021-03-29'
 cover: 'http://img.up-4ever.site/20210329171827.png'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
-  - 转载
+  - 二进制
+  - 补码
+  - 反码
 categories:
-  - 计算机科学
+  - 转载
 abbrlink: 7a8a034b
 ---
 # 漫话：如何给女朋友解释为什么计算机中 0.2 + 0.1 不等于 0.3 ？

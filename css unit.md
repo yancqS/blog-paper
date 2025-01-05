@@ -4,10 +4,15 @@ date: '2020-08-31'
 cover: 'http://img.up-4ever.site/20200831230601.png'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
-  - CSS
-  - 翻译
+  - css unit
+  - px
+  - vw
+  - vh
+  - vmax
+  - vmin
 categories:
   - CSS
+  - 翻译
 abbrlink: 9e34038b
 ---
 # Units in css(em,rem,pt,px,vw,vh,vmin,vmax,ex,ch...)

@@ -4,10 +4,12 @@ date: '2021-09-02'
 cover: 'http://img.up-4ever.site/20210901153710.png'
 top_img: 'http://img.up-4ever.site/infinity-1115505.jpg'
 tags:
-  - JavaScript
-  - 转载
+  - 事件循环
+  - requestAnimationFrame
+  - requestIdleCallback
 categories:
-  - JavaScript
+  - Javascript
+  - 转载
 abbrlink: 10bd5cd3
 ---
 

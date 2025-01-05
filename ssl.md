@@ -8,7 +8,7 @@ tags:
   - https 证书
   - acme.sh
 categories:
-  - Devops
+  - DevOps
 abbrlink: 6d1eca9e
 ---
 # 泛域名证书生成、安装、自动更新

@@ -1,9 +1,6 @@
 ---
 title: Ubuntu 18.04LTS系统设置窗口打不开或者消失解决办法
 date: '2018-04-29'
-tags:
-  - Ubuntu
-  - Linux
 cover: 'http://img.up-4ever.site/20201017234336.png'
 categories:
   - Linux

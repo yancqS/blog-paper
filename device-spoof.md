@@ -5,10 +5,10 @@ date: '2021-08-12'
 cover: 'http://img.up-4ever.site/20210802155602.png'
 top_img: 'http://img.up-4ever.site/infinity-2797211.jpg'
 tags:
+  - 设备欺骗
+categories:
   - 转载
   - 翻译
-categories:
-  - 其他
 abbrlink: e2b15fe7
 ---
 

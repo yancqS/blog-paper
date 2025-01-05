@@ -4,10 +4,11 @@ date: '2020-09-13'
 cover: 'http://img.up-4ever.site/20200913170310.gif'
 top_img: 'http://img.up-4ever.site/infinity-6462079.jpg'
 tags:
-  - 计算机网络
-  - 转载
+  - 域名
+  - DNS
 categories:
   - 计算机网络
+  - 转载
 abbrlink: d39c1bd1
 ---
 # 域名发散和域名收敛

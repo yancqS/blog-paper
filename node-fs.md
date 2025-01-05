@@ -2,11 +2,9 @@
 title: node核心模块——fs
 date: '2020-05-08'
 tags:
-  - 前端开发
-  - JavaScript
-  - node
+  - fs
 categories:
-  - node
+  - NodeJS
 cover: 'http://img.up-4ever.site/20201017192245.jpg'
 top_img: 'http://img.up-4ever.site/infinity-12769278.jpg'
 abbrlink: 8e03a6d3

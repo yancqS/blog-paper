@@ -4,10 +4,10 @@ date: '2022-10-22'
 cover: 'http://img.up-4ever.site/20221023004047.png'
 top_img: 'http://img.up-4ever.site/infinity-9909115.jpg'
 tags:
-  - JavaScript
-  - 转载
+  - uuid
 categories:
-  - JavaScript
+  - Javascript
+  - 转载
 abbrlink: 68ab5d33
 ---
 

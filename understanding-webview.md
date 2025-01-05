@@ -4,10 +4,9 @@ date: '2023-07-20'
 cover: 'http://img.up-4ever.site/infinity-9198993.jpg'
 top_img: 'http://img.up-4ever.site/infinity-695321.jpg'
 tags:
-  - 移动端
-  - 转载
+  - WebView
 categories:
-  - 移动端
+  - 转载
 abbrlink: f050c365
 ---
 # 理解 WebView

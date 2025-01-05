@@ -4,10 +4,11 @@ date: '2020-06-10'
 cover: 'http://img.up-4ever.site/20201017175905.png'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
-  - 前端开发
-  - JavaScript
+  - 连续赋值
+  - 运算符优先级
 categories:
-  - 前端开发
+  - Javascript
+  - 面试题目
 abbrlink: 9bff4f0d
 ---
 # 关于连续赋值的问题

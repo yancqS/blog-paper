@@ -1,6 +1,6 @@
 ---
 title: 计算机组成原理——第三章
-tags:
+categories:
   - 计算机组成原理
 date: '2020-08-20'
 cover: 'http://img.up-4ever.site/20200810230903.png'

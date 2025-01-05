@@ -5,12 +5,10 @@ title: >-
 date: '2021-08-18'
 cover: 'http://img.up-4ever.site/20210816143708.png'
 top_img: 'http://img.up-4ever.site/infinity-574531.jpg'
-tags:
+categories:
   - 翻译
   - 转载
-  - JavaScript
-categories:
-  - JavaScript
+  - Javascript
 abbrlink: d58bbe5a
 ---
 # How JavaScript works - Deep dive into WebSockets and HTTP/2 with SSE + how to pick the right path

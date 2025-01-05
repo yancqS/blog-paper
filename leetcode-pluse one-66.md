@@ -1,8 +1,8 @@
 ---
 title: 加一
 date: '2020-06-03'
-tags:
-  - Leetcode
+categories:
+  - Leetcode 算法
 cover: 'http://img.up-4ever.site/20201017151542.jpeg'
 abbrlink: '2e394548'
 ---

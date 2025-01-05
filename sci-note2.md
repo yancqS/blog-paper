@@ -3,11 +3,8 @@ title: 转载-节选-科技爱好者周刊节选（169期）
 date: '2021-07-30'
 cover: 'http://img.up-4ever.site/20210730213554.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-695321.jpg'
-tags:
-  - 趣谈
-  - 转载
 categories:
-  - 其他
+  - 科技爱好者周刊记录
 abbrlink: 959bf19c
 ---
 

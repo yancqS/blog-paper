@@ -2,10 +2,11 @@
 title: Creating and triggering events
 date: '2018-08-28'
 tags:
-  - 前端开发
-  - JavaScript
+  - Event
 categories:
   - 前端开发
+  - Javascript
+  - 转载
 cover: 'http://img.up-4ever.site/20210507211010.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-6462079.jpg'
 abbrlink: 36de0af9

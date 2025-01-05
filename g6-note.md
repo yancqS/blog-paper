@@ -4,10 +4,12 @@ date: '2024-03-01'
 cover: 'https://img.up-4ever.site/infinity-9909115.jpg'
 top_img: 'http://img.up-4ever.site/infinity-9909115.jpg'
 tags:
-  - JavaScript
-  - 可视化
+  - G6
 categories:
-  - 可视化
+  - VIS
+  - 前端开发
+  - Javascript
+  - React
 abbrlink: 58c191cf
 ---
 # G6 图可视化小记

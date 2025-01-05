@@ -1,9 +1,6 @@
 ---
 title: apt-get命令、dpkg命令、rpm命令和yum命令
 date: '2018-04-30'
-tags:
-  - Ubuntu
-  - Linux
 cover: 'http://img.up-4ever.site/20201017234336.png'
 categories:
   - Linux

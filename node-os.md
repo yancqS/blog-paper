@@ -2,11 +2,9 @@
 title: node核心模块——os
 date: '2020-05-27'
 tags:
-  - 前端开发
-  - JavaScript
-  - node
+  - OS
 categories:
-  - node
+  - NodeJS
 top_img: 'http://img.up-4ever.site/infinity-12769278.jpg'
 cover: 'http://img.up-4ever.site/20201017192245.jpg'
 abbrlink: 5fc11d9a

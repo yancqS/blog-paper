@@ -2,10 +2,9 @@
 title: 堆排序&优先级队列
 date: '2020-07-12'
 tags:
-  - 算法
-  - Leetcode
+  - 堆排序
 categories:
-  - 算法
+  - Leetcode 算法
 cover: 'http://img.up-4ever.site/20201017110754.png'
 top_img: 'http://img.up-4ever.site/infinity-1115505.jpg'
 abbrlink: d6d73b74

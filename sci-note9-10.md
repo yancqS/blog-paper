@@ -3,11 +3,8 @@ title: 转载-节选-科技爱好者周刊节选（176&177期）
 date: '2021-09-28'
 cover: 'http://img.up-4ever.site/20210928212522.jpg'
 top_img: 'http://img.up-4ever.site/infinity-1901105%20(1).jpg'
-tags:
-  - 趣谈
-  - 转载
 categories:
-  - 其他
+  - 科技爱好者周刊记录
 abbrlink: 6a154169
 ---
 # 科技爱好者周刊（第 176&177 期）

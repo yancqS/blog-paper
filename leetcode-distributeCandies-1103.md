@@ -1,8 +1,8 @@
 ---
 title: 1103.分糖果II
 date: '2020-06-13'
-tags:
-  - Leetcode
+categories:
+  - Leetcode 算法
 cover: 'http://img.up-4ever.site/20201017151542.jpeg'
 abbrlink: e3037367
 ---

@@ -2,9 +2,9 @@
 title: TypeScript 装饰器完全指南
 date: '2023-03-01'
 tags:
-  - TypeScript
+  - 装饰器
 categories:
-  - TypeScript
+  - Typescript
 cover: 'http://img.up-4ever.site/infinity-265049.jpg'
 top_img: 'http://img.up-4ever.site/infinity-6462079.jpg'
 abbrlink: 50f6df40

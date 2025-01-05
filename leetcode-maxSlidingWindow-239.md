@@ -1,8 +1,8 @@
 ---
 title: 239.滑动窗口最大值
 date: '2020-06-16'
-tags:
-  - Leetcode
+categories:
+  - Leetcode 算法
 cover: 'http://img.up-4ever.site/20201017151542.jpeg'
 abbrlink: 3cfb674b
 ---

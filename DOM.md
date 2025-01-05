@@ -5,10 +5,10 @@ date: '2020-10-01'
 cover: 'http://img.up-4ever.site/20201004184833.jpg'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
-  - 读书笔记
-  - JavaScript
+  - dom
 categories:
-  - JavaScript
+  - 读书笔记
+  - Javascript
 abbrlink: 1dadcb57
 ---
 

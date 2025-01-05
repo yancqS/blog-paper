@@ -1,8 +1,8 @@
 ---
 title: 设计哈希集合
 date: '2020-06-09'
-tags:
-  - Leetcode
+categories:
+  - Leetcode 算法
 cover: 'http://img.up-4ever.site/20201017151542.jpeg'
 abbrlink: d409192d
 ---

@@ -2,9 +2,10 @@
 title: JS原生函数实现之数组实例方法map/reduce
 date: '2020-06-16'
 tags:
-  - JavaScript
+  - map
+  - reduce
 categories:
-  - JavaScript
+  - Javascript
 top_img: 'http://img.up-4ever.site/20210420224048.jpeg'
 cover: 'http://img.up-4ever.site/infinity-12769278.jpg'
 abbrlink: 7841ce51

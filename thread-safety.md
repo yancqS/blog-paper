@@ -5,10 +5,9 @@ date: '2021-01-26'
 cover: 'http://img.up-4ever.site/20210126213808.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-1377518.jpg'
 tags:
-  - 计算机知识
-  - 线程
+  - 线程安全
 categories:
-  - 操作系统
+  - 转载
 abbrlink: f07340
 ---
 # 线程安全

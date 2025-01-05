@@ -5,10 +5,10 @@ date: '2021-05-13'
 cover: 'http://img.up-4ever.site/20210513202439.png'
 top_img: 'http://img.up-4ever.site/infinity-9198993.jpg'
 tags:
-  - node
-  - idea
+  - nodemailer
 categories:
-  - 其他
+  - NodeJS
+  - 脚本
 abbrlink: aa4b38e3
 ---
 

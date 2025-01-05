@@ -4,11 +4,9 @@ description: 详解平衡组
 date: '2020-12-09'
 cover: 'http://img.up-4ever.site/20201208172723.jpg'
 top_img: 'http://img.up-4ever.site/infinity-12769278.jpg'
-tags:
-  - 正则表达式
-  - JavaScript
 categories:
   - 正则表达式
+  - Javascript
 abbrlink: c06a7817
 ---
 # 详解平衡组

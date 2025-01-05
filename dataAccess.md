@@ -4,10 +4,10 @@ date: '2020-09-22'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 cover: 'http://img.up-4ever.site/20200828171746.jpeg'
 tags:
-  - 笔记
-  - JavaScript
+  - 数据访问
 categories:
-  - JavaScript
+  - Javascript
+  - 读书笔记
 abbrlink: 50b36805
 ---
 # 第二章 数据存取

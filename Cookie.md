@@ -4,10 +4,11 @@ date: '2018-10-10'
 cover: 'http://img.up-4ever.site/20210420223609.png'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
-  - 前端开发
-  - JavaScript
+  - cookie
+  - session
+  - webstorage
 categories:
-  - 前端开发
+  - Javascript
 abbrlink: d0ae3a51
 ---
 # Cookie、Session、WebStorage

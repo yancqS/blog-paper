@@ -4,10 +4,12 @@ date: '2024-03-09'
 cover: 'http://img.up-4ever.site/infinity-4164366.jpg'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
-  - 经济
-  - 转载
+  - CPI
+  - PPI
+  - PMI
 categories:
-  - 经济科普学习
+  - 转载
+  - 经济学
 abbrlink: c394c65f
 ---
 

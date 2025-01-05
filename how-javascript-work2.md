@@ -5,12 +5,10 @@ title: >-
 date: '2021-04-13'
 cover: 'http://img.up-4ever.site/20201217171505.png'
 top_img: 'http://img.up-4ever.site/infinity-695321.jpg'
-tags:
+categories:
   - 翻译
   - 转载
-  - JavaScript
-categories:
-  - JavaScript
+  - Javascript
 abbrlink: 617ec835
 ---
 # How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code

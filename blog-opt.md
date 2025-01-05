@@ -7,8 +7,10 @@ top_img: 'http://img.up-4ever.site/12.jpeg'
 tags:
   - CI
   - Travis
+  - 评论系统
+  - npm
 categories:
-  - 其他
+  - 博客二三事
 abbrlink: '33297825'
 ---
 # 博客优化二三事

@@ -3,12 +3,8 @@ title: Vue3 one piece
 date: '2021-01-07'
 cover: 'http://img.up-4ever.site/20210107225332.jpg'
 top_img: 'http://img.up-4ever.site/infinity-9909115.jpg'
-tags:
-  - JavaScript
-  - 前端开发
-  - Vue
 categories:
-  - JavaScript
+  - Javascript
   - Vue
 abbrlink: fdfc6518
 ---

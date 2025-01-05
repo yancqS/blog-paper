@@ -5,10 +5,10 @@ date: '2021-11-23'
 top_img: 'http://img.up-4ever.site/infinity-4643642.jpg'
 cover: 'http://img.up-4ever.site/20211123144742.png'
 tags:
-  - 数论
-  - 转载
+  - 欧几里德算法
 categories:
-  - 数论
+  - 数学
+  - 转载
 mathjax: true
 abbrlink: fd73d6ff
 ---

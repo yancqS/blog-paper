@@ -2,7 +2,7 @@
 title: npm install 原理分析
 date: '2023-07-14'
 tags:
-  - 前端开发
+  - npm
 categories:
   - 前端开发
 cover: 'http://img.up-4ever.site/infinity-9909115.jpg'

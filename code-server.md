@@ -5,8 +5,11 @@ cover: 'http://img.up-4ever.site/infinity-4164366.jpg'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
   - code-server
+  - 腾讯云
+  - nginx
 categories:
   - Linux
+  - DevOps
 abbrlink: b4572956
 ---
 # 腾讯云服务器部署 code-server

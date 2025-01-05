@@ -5,10 +5,11 @@ date: '2021-05-05'
 cover: 'http://img.up-4ever.site/20210505231625.png'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
+  - 并发
+  - 并行
+categories:
   - 翻译
   - 转载
-categories:
-  - OS
 abbrlink: 75f6a801
 ---
 

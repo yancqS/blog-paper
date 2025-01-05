@@ -1,11 +1,8 @@
 ---
 title: '题目:变量提升/匿名函数this指向'
 date: '2020-07-17'
-tags:
-  - 前端开发
-  - JavaScript
 categories:
-  - JavaScript
+  - Javascript
 cover: 'http://img.up-4ever.site/20201017105512.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 abbrlink: 781b0e09

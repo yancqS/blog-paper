@@ -3,11 +3,8 @@ title: 转载-节选-科技爱好者周刊节选（171期）
 date: '2021-08-13'
 cover: 'http://img.up-4ever.site/20210813163942.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-1760239.jpg'
-tags:
-  - 趣谈
-  - 转载
 categories:
-  - 其他
+  - 科技爱好者周刊记录
 abbrlink: 6adebf65
 ---
 # 科技爱好者周刊（第 171 期）：云服务流量有多贵？

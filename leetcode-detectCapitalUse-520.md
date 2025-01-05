@@ -1,8 +1,8 @@
 ---
 title: 检测大写字母
 date: '2020-06-08'
-tags:
-  - Leetcode
+categories:
+  - Leetcode 算法
 cover: 'http://img.up-4ever.site/20201017151542.jpeg'
 abbrlink: c28a0070
 ---

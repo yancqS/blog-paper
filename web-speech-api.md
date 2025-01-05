@@ -5,10 +5,9 @@ date: '2021-11-24'
 top_img: 'http://img.up-4ever.site/12.jpeg'
 cover: 'http://img.up-4ever.site/20210925163443.gif'
 tags:
-  - JavaScript
+  - web speech
 categories:
-  - 前端
-  - JavaScript
+  - Javascript
 abbrlink: 62a29245
 ---
 # Web Speech API

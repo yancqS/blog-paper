@@ -2,9 +2,9 @@
 title: TypeScript 装饰器之依赖注入
 date: '2023-04-05'
 tags:
-  - TypeScript
+  - 装饰器
 categories:
-  - TypeScript
+  - Typescript
 cover: 'http://img.up-4ever.site/infinity-12769278.jpg'
 top_img: 'http://img.up-4ever.site/infinity-6462079.jpg'
 abbrlink: e823e90e

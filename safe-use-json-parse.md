@@ -5,7 +5,7 @@ date: '2023-12-09'
 cover: 'https://img.up-4ever.site/infinity-4643642.jpg'
 top_img: 'http://img.up-4ever.site/infinity-4643642.jpg'
 tags:
-  - TypeScript
+  - JSON.parse
 categories:
   - TypeScript
 abbrlink: 4a57c4a8

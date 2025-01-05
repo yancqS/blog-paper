@@ -1,8 +1,8 @@
 ---
 title: 宝石与石头
 date: '2020-06-10'
-tags:
-  - Leetcode
+categories:
+  - Leetcode 算法
 cover: 'http://img.up-4ever.site/20201017151542.jpeg'
 abbrlink: 697d1c14
 ---

@@ -2,10 +2,10 @@
 title: 函数防抖和节流、以及Promise.all实现
 date: '2020-06-22'
 tags:
-  - 前端开发
-  - JavaScript
+  - 防抖
+  - 节流
 categories:
-  - JavaScript
+  - Javascript
 cover: 'http://img.up-4ever.site/20201017105512.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 abbrlink: cc4b7fc7

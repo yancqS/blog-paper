@@ -4,10 +4,9 @@ description: What does the "as const" mean in TypeScript and what is its use cas
 date: '2023-02-14'
 cover: 'http://img.up-4ever.site/20230214225241.jpg'
 top_img: 'http://img.up-4ever.site/infinity-12769278.jpg'
-tags:
-  - TypeScript
 categories:
-  - TypeScript
+  - Typescript
+  - 转载
 abbrlink: e138f792
 ---
 

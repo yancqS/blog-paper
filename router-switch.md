@@ -5,7 +5,8 @@ date: '2021-05-20'
 cover: 'http://img.up-4ever.site/20210602223659.png'
 top_img: 'http://img.up-4ever.site/infinity-12769278.jpg'
 tags:
-  - 计算机知识
+  - 交换机
+  - 路由器
 categories:
   - 计算机网络
 abbrlink: 6c5ca899

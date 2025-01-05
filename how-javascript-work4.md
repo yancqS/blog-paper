@@ -5,12 +5,10 @@ title: >-
 date: '2021-06-22'
 cover: 'http://img.up-4ever.site/20210622203624.gif'
 top_img: 'http://img.up-4ever.site/infinity-1140607.jpg'
-tags:
+categories:
   - 翻译
   - 转载
-  - JavaScript
-categories:
-  - JavaScript
+  - Javascript
 abbrlink: eadbcdca
 ---
 # How JavaScript works - Event loop and the rise of Async programming + 5 ways to better coding with async/await

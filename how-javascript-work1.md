@@ -5,12 +5,10 @@ title: >-
 date: '2020-11-12'
 cover: 'http://img.up-4ever.site/20201111175711.png'
 top_img: 'http://img.up-4ever.site/infinity-1760239.jpg'
-tags:
+categories:
   - 翻译
   - 转载
-  - JavaScript
-categories:
-  - JavaScript
+  - Javascript
 abbrlink: f9144880
 ---
 # How JavaScript works: an overview of the engine, the runtime, and the call stack

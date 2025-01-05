@@ -5,9 +5,11 @@ date: '2023-08-13'
 cover: 'http://img.up-4ever.site/infinity-1140607.jpg'
 top_img: 'http://img.up-4ever.site/infinity-1140607.jpg'
 tags:
-  - 转载
+  - jetbrain
+  - shodan
 categories:
   - 经验分享
+  - 转载
 abbrlink: 7a9026b0
 ---
 # Jetbrains 全家桶激活

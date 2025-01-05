@@ -2,10 +2,10 @@
 title: JS原生函数模拟实现new和instanceof及函数柯里化
 date: '2020-06-20'
 tags:
-  - 前端开发
-  - JavaScript
+  - new
+  - instanceof
 categories:
-  - JavaScript
+  - Javascript
 cover: 'http://img.up-4ever.site/20201017105512.jpeg'
 top_img: 'http://img.up-4ever.site/20210420224048.jpeg'
 abbrlink: e5bda813

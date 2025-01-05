@@ -5,10 +5,10 @@ date: '2020-11-01'
 top_img: 'http://img.up-4ever.site/infinity-2294118.jpg'
 cover: 'http://img.up-4ever.site/20201110205703.jpg'
 tags:
-  - 读书笔记
-  - JavaScript
+  - 性能
 categories:
-  - JavaScript
+  - Javascript
+  - 读书笔记
 abbrlink: aa80d232
 ---
 # 第四章 算法和流程控制

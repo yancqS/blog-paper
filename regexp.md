@@ -3,11 +3,9 @@ title: 正则表达式30分钟入门教程
 date: '2020-12-01'
 cover: 'http://img.up-4ever.site/20201203211137.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-574531.jpg'
-tags:
-  - 正则表达式
-  - JavaScript
 categories:
   - 正则表达式
+  - Javascript
 abbrlink: 522e21a3
 ---
 # 正则表达式30分钟入门教程

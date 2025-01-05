@@ -1,6 +1,6 @@
 ---
 title: 计算机组成原理——第四章
-tags:
+categories:
   - 计算机组成原理
 date: '2020-08-25'
 top_img: 'http://img.up-4ever.site/infinity-6462079.jpg'

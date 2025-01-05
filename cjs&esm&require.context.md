@@ -4,10 +4,13 @@ date: '2020-09-08'
 cover: 'http://img.up-4ever.site/20201016234622.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
-  - Javascript
-  - 前端
-categories:
+  - CommonJS
+  - ESModule
   - 模块化
+  - webpack
+categories:
+  - Javascript
+  - NodeJS
 abbrlink: '257e4376'
 ---
 # 了解cjs、esm以及require.context()

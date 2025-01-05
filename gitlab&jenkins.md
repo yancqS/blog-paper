@@ -3,11 +3,12 @@ title: centos7安装jenkins和gitlab踩坑记
 date: '2020-05-17'
 top_img: 'http://img.up-4ever.site/infinity-1115505.jpg'
 tags:
-  - CI
+  - CI/CD
   - gitlab
   - jenkins
 categories:
-  - 前端工程化
+  - DevOps
+  - Linux
 cover: 'http://img.up-4ever.site/20201017230306.jpeg'
 abbrlink: 2d11c24e
 ---
@@ -15,9 +16,9 @@ abbrlink: 2d11c24e
 
 ## 一、背景
 
-- 主机:win10
-- 虚拟机:centos7
-- 目标：成功安装gitlab&jenkins，并且可以正常利用gitlab的push event webhook触发jenkins的自动构建任务。
+- 主机: win10
+- 虚拟机: centos7
+- 目标：成功安装 gitlab&jenkins，并且可以正常利用 gitlab 的 push event webhook 触发 jenkins 的自动构建任务。
 
 ## 二、安装gitlab
 
@@ -325,8 +326,6 @@ API token可以在gitlab中的用户的设置中找到
 去jenkins看看
 
 ![](http://img.up-4ever.site/20201017231726.jpg)
-
-over!!!!!
 
 稍等，下一步计划——pipeline and jenkinsfile
 

@@ -4,11 +4,9 @@ description: Sass入门学习
 date: '2021-03-05'
 cover: 'http://img.up-4ever.site/20210305230928.jpg'
 top_img: 'http://img.up-4ever.site/infinity-12769278.jpg'
-tags:
-  - Sass
-  - Scss
 categories:
   - CSS
+  - Scss
 abbrlink: d2be4d57
 ---
 # sass学习记录

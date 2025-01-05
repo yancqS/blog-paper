@@ -1,10 +1,8 @@
 ---
 title: '题目:经典的FOO.getName问题'
-tags:
-  - 前端开发
-  - JavaScript
 categories:
-  - JavaScript
+  - Javascript
+  - 面试题目
 date: '2020-08-01'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 cover: 'http://img.up-4ever.site/20201017101258.png'

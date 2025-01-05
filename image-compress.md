@@ -5,11 +5,10 @@ date: '2021-06-28'
 cover: 'http://img.up-4ever.site/20210628224652.png'
 top_img: 'http://img.up-4ever.site/infinity-1140607.jpg'
 tags:
-  - JavaScript
-  - 转载
+  - 图片压缩
 categories:
-  - 前端
-  - JavaScript
+  - 转载
+  - Javascript
 abbrlink: 4e4e36d7
 ---
 # JS 图片压缩

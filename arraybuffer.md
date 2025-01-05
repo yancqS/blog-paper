@@ -5,10 +5,11 @@ date: '2020-12-31'
 cover: 'http://img.up-4ever.site/20201226160513.png'
 top_img: 'http://img.up-4ever.site/infinity-1760239.jpg'
 tags:
-  - JavaScript
-  - 前端开发
+  - ArrayBuffer
+  - Atomics
+  - 字节序
 categories:
-  - JavaScript
+  - Javascript
 abbrlink: bc5b4b9
 ---
 # 浅析ArrayBuffer对象(上)

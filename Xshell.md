@@ -2,7 +2,6 @@
 title: Xshell无法连接到Linux虚拟机
 date: '2018-10-21'
 tags:
-  - Linux
   - Xshell
 cover: 'http://img.up-4ever.site/20210420224048.jpeg'
 categories:

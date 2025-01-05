@@ -4,10 +4,11 @@ date: '2021-09-29'
 cover: 'http://img.up-4ever.site/20210929161341.png'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
-  - JavaScript
-  - 转载
+  - SIR
+  - 资源完整性校验
 categories:
-  - JavaScript
+  - Javascript
+  - 转载
 abbrlink: 70b0107f
 ---
 # Web页面子资源完整性校验详细指南

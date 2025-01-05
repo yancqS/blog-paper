@@ -5,10 +5,11 @@ date: '2022-03-19'
 top_img: 'http://img.up-4ever.site/infinity-574531.jpg'
 cover: 'http://img.up-4ever.site/20210420224048.jpeg'
 tags:
-  - Linux
+  - 软连接
+  - 硬链接
 categories:
-  - 计算机知识
   - Linux
+  - DevOps
 abbrlink: 492c202
 ---
 # Linux软链接和硬链接

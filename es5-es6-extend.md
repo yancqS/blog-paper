@@ -2,10 +2,9 @@
 title: ES5/6对象的继承及区别
 date: '2020-06-18'
 tags:
-  - 前端开发
-  - JavaScript
+  - 继承
 categories:
-  - JavaScript
+  - Javascript
 cover: 'http://img.up-4ever.site/20201017105512.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-1115505.jpg'
 abbrlink: 6b00b46

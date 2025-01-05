@@ -8,8 +8,8 @@ tags:
   - AST
   - babel
 categories:
-  - JavaScript
-  - babel编译
+  - Javascript
+  - babel 编译
 abbrlink: 183d7ec7
 ---
 # AST实现函数自动包裹try/catch

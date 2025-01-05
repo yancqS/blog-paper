@@ -4,10 +4,11 @@ date: '2020-06-15'
 top_img: 'http://img.up-4ever.site/infinity-1377518.jpg'
 cover: 'http://img.up-4ever.site/20201017105512.jpeg'
 tags:
-  - 前端开发
-  - JavaScript
+  - call
+  - apply
+  - bind
 categories:
-  - JavaScript
+  - Javascript
 abbrlink: d824afdc
 ---
 # JS原生函数实现之call/apply/bind

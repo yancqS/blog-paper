@@ -2,11 +2,9 @@
 title: node核心模块——path
 date: '2020-04-20'
 tags:
-  - 前端开发
-  - JavaScript
-  - node
+  - path
 categories:
-  - node
+  - NodeJS
 cover: 'http://img.up-4ever.site/20201017192245.jpg'
 top_img: 'http://img.up-4ever.site/infinity-12769278.jpg'
 abbrlink: b6932638

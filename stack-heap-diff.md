@@ -5,11 +5,10 @@ date: '2021-06-09'
 cover: 'http://img.up-4ever.site/20210609120039.jpg'
 top_img: 'http://img.up-4ever.site/infinity-9909115.jpg'
 tags:
-  - 计算机知识
+  - 堆栈
+categories:
   - 转载
   - 翻译
-categories:
-  - 计算机知识
 abbrlink: 322da11e
 ---
 # 堆和栈的区别

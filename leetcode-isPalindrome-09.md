@@ -1,8 +1,8 @@
 ---
 title: 回文数
 date: '2020-06-01'
-tags:
-  - Leetcode
+categories:
+  - Leetcode 算法
 cover: 'http://img.up-4ever.site/20201017191711.gif'
 abbrlink: df58b0a0
 ---

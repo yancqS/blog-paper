@@ -1,10 +1,11 @@
 ---
 title: 彻底搞懂HTTPS的加密机制
 tags:
+  - https
+  - 加密
+categories:
   - 转载
   - 计算机网络
-categories:
-  - 网络协议
 date: '2020-08-12'
 top_img: 'http://img.up-4ever.site/infinity-16455769.jpg'
 cover: 'http://img.up-4ever.site/v2-a0d10af45e785fe8d3f5cd12f8c309f5_r.jpg'

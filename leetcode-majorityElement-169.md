@@ -1,8 +1,8 @@
 ---
 title: 多数元素
 date: '2020-06-06'
-tags:
-  - Leetcode
+categories:
+  - Leetcode 算法
 cover: 'http://img.up-4ever.site/20201017151542.jpeg'
 abbrlink: 846cc5e
 ---

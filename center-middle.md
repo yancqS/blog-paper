@@ -4,10 +4,10 @@ date: '2020-06-17'
 cover: 'http://img.up-4ever.site/20201017145747.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-1901105%20(1).jpg'
 tags:
-  - 前端开发
-  - CSS
+  - 居中
 categories:
   - CSS
+  - 前端开发
 abbrlink: 77eb9d4a
 ---
 # 元素垂直水平居中的几种方法

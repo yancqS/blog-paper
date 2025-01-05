@@ -8,6 +8,8 @@ tags:
   - 百度小程序
 categories:
   - 小程序
+  - 前端开发
+  - Javascript
 abbrlink: 8285d5b2
 ---
 # 百度小程序——基础原理篇

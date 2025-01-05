@@ -5,10 +5,11 @@ date: '2021-10-26'
 cover: 'http://img.up-4ever.site/infinity-12769278.jpg'
 top_img: 'http://img.up-4ever.site/infinity-12769278.jpg'
 tags:
-  - node
+  - 前景色
+  - 背景色
 categories:
-  - JavaScript
-  - node
+  - Javascript
+  - NodeJS
 abbrlink: 7ec80586
 ---
 # Node.js中的console.log()输出彩色字体

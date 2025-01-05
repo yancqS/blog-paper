@@ -4,10 +4,10 @@ date: '2021-08-15'
 cover: 'http://img.up-4ever.site/20210815223336.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-9909115.jpg'
 tags:
-  - JavaScript
-  - 转载
+  - 主题色
 categories:
-  - JavaScript
+  - Javascript
+  - 转载
 abbrlink: 5c725a52
 ---
 # 如何对图片主题色进行提取

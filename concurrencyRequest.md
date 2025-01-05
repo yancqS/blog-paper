@@ -5,11 +5,11 @@ date: '2022-11-20'
 cover: 'http://img.up-4ever.site/20221120191733.webp'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
-  - 前端
-  - JavaScript
-  - 转载
+  - 并发请求
 categories:
   - 前端开发
+  - Javascript
+  - 转载
 abbrlink: d677079f
 ---
 

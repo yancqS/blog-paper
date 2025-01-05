@@ -1,8 +1,8 @@
 ---
 title: 'pow(x,n)'
 date: '2020-06-02'
-tags:
-  - Leetcode
+categories:
+  - Leetcode 算法
 cover: 'http://img.up-4ever.site/20201017190350.jpg'
 abbrlink: 750ac2fb
 ---

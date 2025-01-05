@@ -4,10 +4,11 @@ date: '2020-07-02'
 cover: 'http://img.up-4ever.site/20201017111554.jpg'
 top_img: 'http://img.up-4ever.site/infinity-9909115.jpg'
 tags:
-  - 算法
-  - Leetcode
+  - 回溯算法
+  - 组合
+  - N 皇后
 categories:
-  - 算法
+  - Leetcode 算法
 abbrlink: 376d0826
 ---
 # 回溯算法及题目

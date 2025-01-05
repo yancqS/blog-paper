@@ -3,11 +3,8 @@ title: 转载-节选-科技爱好者周刊节选（173期）
 date: '2021-08-28'
 cover: 'http://img.up-4ever.site/20210828145215.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-9198993.jpg'
-tags:
-  - 趣谈
-  - 转载
 categories:
-  - 其他
+  - 科技爱好者周刊记录
 abbrlink: fd41ae4c
 ---
 # 科技爱好者周刊（第 173 期）：网络收音机的设计

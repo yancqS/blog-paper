@@ -3,11 +3,8 @@ title: 转载-节选-科技爱好者周刊节选（170期）
 date: '2021-08-07'
 cover: 'http://img.up-4ever.site/20210806181429.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-1115505.jpg'
-tags:
-  - 趣谈
-  - 转载
 categories:
-  - 其他
+  - 科技爱好者周刊记录
 abbrlink: cca9b4d1
 ---
 

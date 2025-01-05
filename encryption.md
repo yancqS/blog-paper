@@ -5,7 +5,8 @@ date: '2021-11-11'
 cover: 'http://img.up-4ever.site/20210929161341.png'
 top_img: 'http://img.up-4ever.site/infinity-574531.jpg'
 tags:
-  - 密码学
+  - 单向加密
+  - 双向加密
 categories:
   - 密码学
 abbrlink: 88becec7

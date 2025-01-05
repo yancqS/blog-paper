@@ -2,7 +2,7 @@
 title: 事件触发器EventEmitter
 date: '2020-06-23'
 tags:
-  - 设计模式
+  - 发布订阅模式
 categories:
   - 设计模式
 cover: 'http://img.up-4ever.site/20201017114430.jpg'
@@ -72,74 +72,3 @@ event.emit('click', 100);//发布（触发）
 发布订阅模式可以理解为是观察者模式的一种变形，两者的区别是：发布/订阅模式在观察者模式的基础上，在目标和观察者之间增加一个调度中心。
 
 ![](http://img.up-4ever.site/20201017114430.jpg)
-
-## 观察者模式（有待考证）：
-
->应该用Object.defineProperty() 或者用 Proxy 来实现。下面代码有点问题。待修改
-
-```javascript
-class Observe {
-    constructor() {
-      this.dep = [];
-    }
-
-    watcher(propertyName, fn) {
-      let handle = this.dep[propertyName] || [];
-      handle.push(fn);
-      this.dep[propertyName] = handle;
-      return this;
-    }
-
-    unwatch(propertyName) {
-      let depen = this.dep[propertyName];
-      depen = depen && [];
-      this.dep[propertyName] = depen;
-      return this;
-    }
-
-    notify(propertyName, ...args) {
-      let handle = this.dep[propertyName];
-      if (handle && handle.length > 0) {
-        handle.forEach(fn => fn.apply(this, args));
-      }
-      return this;
-    }
-  }
-
-  let observe = new Observe();
-
-  let obj = {
-    a: 'first',
-    b: 'second'
-  }
-
-  let handle = {
-    get(target, property) {
-      return Reflect.get(target, property);
-    },
-    set(target, key, value) {
-      observe.notify(key);
-      Reflect.set(target, key, value);
-    }
-  }
-
-  function watcher1() {
-    console.log('watchee1: a have chage');
-  }
-
-  function watcher2() {
-    console.log('watchee2: a have chage');
-  }
-
-  observe.watcher('a', watcher1);
-  observe.watcher('a', watcher2);
-
-  let proxy = new Proxy(obj, handle);
-
-  proxy.a = 10;
-  proxy.a = 130;
-
-  observe.unwatch('a');
-
-  proxy.a = 100;
-```

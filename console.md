@@ -4,10 +4,9 @@ date: '2020-09-04'
 cover: 'http://img.up-4ever.site/20200905134629.jpg'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
-  - Javascript
-  - 前端
+  - cosole
 categories:
-  - 前端开发
+  - Javascript
 abbrlink: 41713f56
 ---
 # console对象详解

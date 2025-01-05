@@ -4,10 +4,12 @@ date: '2020-06-19'
 cover: 'http://img.up-4ever.site/20201017105512.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-1901105%20(1).jpg'
 tags:
-  - 前端开发
-  - JavaScript
-categories:
   - 模块化
+  - CommonJS
+  - ESModule
+categories:
+  - 前端开发
+  - Javascript
 abbrlink: cc4ff811
 ---
 # CommonJS 与 ES6 Module的区别

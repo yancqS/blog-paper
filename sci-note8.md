@@ -3,11 +3,8 @@ title: 转载-节选-科技爱好者周刊节选（175期）
 date: '2021-09-11'
 cover: 'http://img.up-4ever.site/20210911221105.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-6462079.jpg'
-tags:
-  - 趣谈
-  - 转载
 categories:
-  - 其他
+  - 科技爱好者周刊记录
 abbrlink: 9e919b76
 ---
 # 科技爱好者周刊（第 175 期）：知识广度 vs 知识深度

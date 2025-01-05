@@ -2,10 +2,10 @@
 title: less内置函数
 date: '2020-06-28'
 tags:
-  - CSS
-  - Less
+  - Less 函数
 categories:
   - CSS
+  - Less
 cover: 'http://img.up-4ever.site/20201017113243.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-2875549.jpg'
 abbrlink: 1940b795

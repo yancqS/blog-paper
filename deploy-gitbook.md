@@ -5,8 +5,11 @@ cover: 'http://img.up-4ever.site/infinity-1901105%20(1).jpg'
 top_img: 'http://img.up-4ever.site/12.jpeg'
 tags:
   - gitbook
+  - 腾讯云
+  - nginx
+  - bare repo
 categories:
-  - 其他
+  - DevOps
 abbrlink: 99cda666
 ---
 # GitBook 部署至腾讯云服务器小记

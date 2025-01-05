@@ -4,9 +4,10 @@ date: '2020-10-12'
 cover: 'http://img.up-4ever.site/20201008220027.png'
 top_img: 'http://img.up-4ever.site/infinity-1901105%20(1).jpg'
 tags:
-  - 转载
-categories:
   - 浏览器架构
+  - Chrome
+categories:
+  - 转载
 abbrlink: 2f9b4ebf
 ---
 

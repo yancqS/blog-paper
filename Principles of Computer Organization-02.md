@@ -1,6 +1,6 @@
 ---
 title: 计算机组成原理——第二章
-tags:
+categories:
   - 计算机组成原理
 date: '2020-07-28'
 cover: 'http://img.up-4ever.site/20201017103330.jpeg'

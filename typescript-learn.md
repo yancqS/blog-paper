@@ -3,10 +3,8 @@ title: TypeScript学习记录(一)
 date: '2021-01-09'
 cover: 'http://img.up-4ever.site/20210109223210.jpg'
 top_img: 'http://img.up-4ever.site/infinity-695321.jpg'
-tags:
-  - TypeScript
 categories:
-  - TypeScript
+  - Typescript
 abbrlink: 759c0d7f
 ---
 # TypeScript学习记录(一)

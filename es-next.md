@@ -6,9 +6,9 @@ date: '2021-07-01'
 cover: 'http://img.up-4ever.site/20210704162016.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-1115505.jpg'
 tags:
-  - JavaScript
+  - ES6+
 categories:
-  - JavaScript
+  - Javascript
 abbrlink: e5ef1fdd
 ---
 # ES next

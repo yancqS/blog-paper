@@ -8,7 +8,7 @@ keywords:
   - centos
   - mysql
 tags:
-  - Linux
+  - Centos 7
   - MySQL
 categories:
   - Linux

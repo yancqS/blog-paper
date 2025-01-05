@@ -1,8 +1,8 @@
 ---
 title: 两个数组的交集
 date: '2020-06-07'
-tags:
-  - Leetcode
+categories:
+  - Leetcode 算法
 cover: 'http://img.up-4ever.site/20201017151542.jpeg'
 abbrlink: 3d5e7de7
 ---
