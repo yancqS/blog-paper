@@ -5,10 +5,10 @@ cover: 'https://img.up-4ever.site/infinity-9909115.jpg'
 top_img: 'http://img.up-4ever.site/infinity-9909115.jpg'
 tags:
   - G6
+  - Javascript
 categories:
   - VIS
   - 前端开发
-  - Javascript
   - React
 abbrlink: 58c191cf
 ---

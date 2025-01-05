@@ -8,7 +8,6 @@ tags:
   - 前景色
   - 背景色
 categories:
-  - Javascript
   - NodeJS
 abbrlink: 7ec80586
 ---

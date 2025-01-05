@@ -5,8 +5,8 @@ date: '2023-02-14'
 cover: 'http://img.up-4ever.site/20230214225241.jpg'
 top_img: 'http://img.up-4ever.site/infinity-12769278.jpg'
 categories:
-  - Typescript
   - 转载
+  - Typescript
 abbrlink: e138f792
 ---
 

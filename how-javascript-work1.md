@@ -6,8 +6,8 @@ date: '2020-11-12'
 cover: 'http://img.up-4ever.site/20201111175711.png'
 top_img: 'http://img.up-4ever.site/infinity-1760239.jpg'
 categories:
-  - 翻译
   - 转载
+  - 翻译
   - Javascript
 abbrlink: f9144880
 ---

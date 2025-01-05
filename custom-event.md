@@ -4,9 +4,8 @@ date: '2018-08-28'
 tags:
   - Event
 categories:
-  - 前端开发
-  - Javascript
   - 转载
+  - Javascript
 cover: 'http://img.up-4ever.site/20210507211010.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-6462079.jpg'
 abbrlink: 36de0af9

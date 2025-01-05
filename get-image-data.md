@@ -6,8 +6,8 @@ top_img: 'http://img.up-4ever.site/infinity-9909115.jpg'
 tags:
   - 主题色
 categories:
-  - Javascript
   - 转载
+  - Javascript
 abbrlink: 5c725a52
 ---
 # 如何对图片主题色进行提取

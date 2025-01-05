@@ -5,8 +5,9 @@ cover: 'http://img.up-4ever.site/20211112172200.jpg'
 top_img: 'http://img.up-4ever.site/infinity-1901105%20(1).jpg'
 tags:
   - RSA 算法
-categories:
   - 数学
+  - 密码学
+categories:
   - 密码学
 mathjax: true
 abbrlink: bb782419

@@ -6,8 +6,8 @@ date: '2021-08-18'
 cover: 'http://img.up-4ever.site/20210816143708.png'
 top_img: 'http://img.up-4ever.site/infinity-574531.jpg'
 categories:
-  - 翻译
   - 转载
+  - 翻译
   - Javascript
 abbrlink: d58bbe5a
 ---

@@ -6,8 +6,8 @@ cover: 'http://img.up-4ever.site/20201219170044.gif'
 top_img: 'http://img.up-4ever.site/infinity-6462079.jpg'
 tags:
   - css 省略
-categories:
   - 转载
+categories:
   - CSS
 abbrlink: c46fe94b
 ---

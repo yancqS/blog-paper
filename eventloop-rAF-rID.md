@@ -8,8 +8,8 @@ tags:
   - requestAnimationFrame
   - requestIdleCallback
 categories:
-  - Javascript
   - 转载
+  - Javascript
 abbrlink: 10bd5cd3
 ---
 

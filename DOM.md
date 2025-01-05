@@ -8,7 +8,7 @@ tags:
   - dom
 categories:
   - 读书笔记
-  - Javascript
+  - 高性能JavaScript
 abbrlink: 1dadcb57
 ---
 

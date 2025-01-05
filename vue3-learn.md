@@ -4,7 +4,6 @@ date: '2021-01-07'
 cover: 'http://img.up-4ever.site/20210107225332.jpg'
 top_img: 'http://img.up-4ever.site/infinity-9909115.jpg'
 categories:
-  - Javascript
   - Vue
 abbrlink: fdfc6518
 ---

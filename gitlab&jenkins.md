@@ -6,9 +6,9 @@ tags:
   - CI/CD
   - gitlab
   - jenkins
+  - Linux
 categories:
   - DevOps
-  - Linux
 cover: 'http://img.up-4ever.site/20201017230306.jpeg'
 abbrlink: 2d11c24e
 ---

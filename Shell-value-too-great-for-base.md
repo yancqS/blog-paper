@@ -2,8 +2,8 @@
 title: Shell value too great for base
 date: '2018-12-09'
 categories:
-  - shell 脚本
   - Linux
+  - shell 脚本
 cover: 'http://img.up-4ever.site/20201017234007.jpg'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 abbrlink: c64d1d93

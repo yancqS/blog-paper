@@ -6,10 +6,10 @@ cover: 'http://img.up-4ever.site/20210325224201.jpg'
 top_img: 'http://img.up-4ever.site/infinity-574531.jpg'
 tags:
   - 百度小程序
-categories:
-  - 小程序
-  - 前端开发
   - Javascript
+categories:
+  - 前端开发
+  - 小程序
 abbrlink: 8285d5b2
 ---
 # 百度小程序——基础原理篇

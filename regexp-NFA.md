@@ -6,7 +6,6 @@ cover: 'http://img.up-4ever.site/20201208172723.jpg'
 top_img: 'http://img.up-4ever.site/infinity-12769278.jpg'
 categories:
   - 正则表达式
-  - Javascript
 abbrlink: c06a7817
 ---
 # 详解平衡组

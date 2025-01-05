@@ -7,8 +7,8 @@ tags:
   - SIR
   - 资源完整性校验
 categories:
-  - Javascript
   - 转载
+  - Javascript
 abbrlink: 70b0107f
 ---
 # Web页面子资源完整性校验详细指南

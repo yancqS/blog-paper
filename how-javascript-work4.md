@@ -6,8 +6,8 @@ date: '2021-06-22'
 cover: 'http://img.up-4ever.site/20210622203624.gif'
 top_img: 'http://img.up-4ever.site/infinity-1140607.jpg'
 categories:
-  - 翻译
   - 转载
+  - 翻译
   - Javascript
 abbrlink: eadbcdca
 ---

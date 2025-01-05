@@ -6,8 +6,8 @@ top_img: 'http://img.up-4ever.site/infinity-9909115.jpg'
 tags:
   - uuid
 categories:
-  - Javascript
   - 转载
+  - Javascript
 abbrlink: 68ab5d33
 ---
 

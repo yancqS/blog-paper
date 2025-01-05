@@ -3,8 +3,8 @@ title: 关于linux丢失/root文件夹导致的-bash-4.1#(不显示路径)的解
 date: '2018-04-13'
 tags:
   - bash
-categories:
   - Linux
+categories:
   - DevOps
 cover: 'http://img.up-4ever.site/20210420224048.jpeg'
 top_img: 'http://img.up-4ever.site/infinity-2875549.jpg'

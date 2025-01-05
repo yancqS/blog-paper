@@ -7,8 +7,8 @@ cover: 'http://img.up-4ever.site/20211123144742.png'
 tags:
   - 欧几里德算法
 categories:
-  - 数学
   - 转载
+  - 数学
 mathjax: true
 abbrlink: fd73d6ff
 ---

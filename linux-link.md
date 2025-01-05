@@ -9,7 +9,6 @@ tags:
   - 硬链接
 categories:
   - Linux
-  - DevOps
 abbrlink: 492c202
 ---
 # Linux软链接和硬链接

@@ -8,7 +8,6 @@ tags:
   - nodemailer
 categories:
   - NodeJS
-  - 脚本
 abbrlink: aa4b38e3
 ---
 

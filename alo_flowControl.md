@@ -7,8 +7,8 @@ cover: 'http://img.up-4ever.site/20201110205703.jpg'
 tags:
   - 性能
 categories:
-  - Javascript
   - 读书笔记
+  - 高性能JavaScript
 abbrlink: aa80d232
 ---
 # 第四章 算法和流程控制

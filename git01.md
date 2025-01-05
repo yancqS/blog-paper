@@ -6,8 +6,8 @@ top_img: 'https://img.up-4ever.site/20240302171921.jpg'
 tags:
   - Git
 categories:
-  - Git
   - 读书笔记
+  - progit
 abbrlink: f90b6cc
 ---
 

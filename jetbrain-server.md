@@ -8,8 +8,8 @@ tags:
   - jetbrain
   - shodan
 categories:
-  - 经验分享
   - 转载
+  - 经验分享
 abbrlink: 7a9026b0
 ---
 # Jetbrains 全家桶激活

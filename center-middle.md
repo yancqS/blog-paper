@@ -6,8 +6,8 @@ top_img: 'http://img.up-4ever.site/infinity-1901105%20(1).jpg'
 tags:
   - 居中
 categories:
-  - CSS
   - 前端开发
+  - CSS
 abbrlink: 77eb9d4a
 ---
 # 元素垂直水平居中的几种方法

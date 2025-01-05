@@ -7,8 +7,8 @@ tags:
   - code-server
   - 腾讯云
   - nginx
-categories:
   - Linux
+categories:
   - DevOps
 abbrlink: b4572956
 ---

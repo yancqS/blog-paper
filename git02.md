@@ -6,8 +6,8 @@ top_img: 'http://img.up-4ever.site/infinity-688645.jpg'
 tags:
   - Git
 categories:
-  - Git
   - 读书笔记
+  - progit
 abbrlink: 30cd1f9
 ---
 

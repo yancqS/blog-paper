@@ -6,10 +6,10 @@ cover: 'http://img.up-4ever.site/20221120191733.webp'
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 tags:
   - 并发请求
-categories:
   - 前端开发
-  - Javascript
   - 转载
+categories:
+  - Javascript
 abbrlink: d677079f
 ---
 

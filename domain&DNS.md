@@ -7,8 +7,8 @@ tags:
   - 域名
   - DNS
 categories:
-  - 计算机网络
   - 转载
+  - 计算机网络
 abbrlink: d39c1bd1
 ---
 # 域名发散和域名收敛

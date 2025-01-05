@@ -6,8 +6,8 @@ cover: 'http://img.up-4ever.site/20200828171746.jpeg'
 tags:
   - 数据访问
 categories:
-  - Javascript
   - 读书笔记
+  - 高性能JavaScript
 abbrlink: 50b36805
 ---
 # 第二章 数据存取

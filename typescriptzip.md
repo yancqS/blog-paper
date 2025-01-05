@@ -3,8 +3,8 @@ title: 一道 3 层的 TypeScript 面试题，你能答到第几层？
 date: '2023-02-11'
 cover: 'http://img.up-4ever.site/infinity-1901105%20(1).jpg'
 categories:
-  - Typescript
   - 转载
+  - Typescript
 top_img: 'http://img.up-4ever.site/infinity-4164366.jpg'
 abbrlink: 75ae98af
 ---

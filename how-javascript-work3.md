@@ -4,8 +4,8 @@ date: '2021-06-01'
 cover: 'http://img.up-4ever.site/20210517122820.png'
 top_img: 'http://img.up-4ever.site/infinity-1901105%20(1).jpg'
 categories:
-  - 翻译
   - 转载
+  - 翻译
   - Javascript
 abbrlink: 39d92d48
 ---
