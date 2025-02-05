@@ -98,7 +98,7 @@
 - **188马力**‌：这是发动机的最大功率，通常用于衡量发动机的性能。马力越大，发动机的输出功率越高，车辆的动力性能也越强。
 - **L4**‌：表示该发动机为直列四缸发动机。其中，“L”代表直列式气缸排列，“4”代表气缸数量为四个。直列四缸发动机结构简单、成本较低且运行平稳，适合家用车型使用。
 
-> **除了L4发动机，常见的汽车发动机类型还包括[V6发动机](https://www.baidu.com/s?rsv_dl=re_dqa_generate&sa=re_dqa_generate&wd=V6发动机&rsv_pq=99e521c2000360c9&oq=除了 L4发动机还有什么&rsv_t=543dSKGNeebyP24Khlxi53kjXSrvJs7mb1o/dhafjMOkC6bOzk75Y2I0rhW/pdzIlsa/fdL1Eqfj&tn=44004473_48_oem_dg&ie=utf-8)、[V8发动机](https://www.baidu.com/s?rsv_dl=re_dqa_generate&sa=re_dqa_generate&wd=V8发动机&rsv_pq=99e521c2000360c9&oq=除了 L4发动机还有什么&rsv_t=543dSKGNeebyP24Khlxi53kjXSrvJs7mb1o/dhafjMOkC6bOzk75Y2I0rhW/pdzIlsa/fdL1Eqfj&tn=44004473_48_oem_dg&ie=utf-8)、[V12发动机](https://www.baidu.com/s?rsv_dl=re_dqa_generate&sa=re_dqa_generate&wd=V12发动机&rsv_pq=99e521c2000360c9&oq=除了 L4发动机还有什么&rsv_t=543dSKGNeebyP24Khlxi53kjXSrvJs7mb1o/dhafjMOkC6bOzk75Y2I0rhW/pdzIlsa/fdL1Eqfj&tn=44004473_48_oem_dg&ie=utf-8)、[W18发动机](https://www.baidu.com/s?rsv_dl=re_dqa_generate&sa=re_dqa_generate&wd=W18发动机&rsv_pq=99e521c2000360c9&oq=除了 L4发动机还有什么&rsv_t=543dSKGNeebyP24Khlxi53kjXSrvJs7mb1o/dhafjMOkC6bOzk75Y2I0rhW/pdzIlsa/fdL1Eqfj&tn=44004473_48_oem_dg&ie=utf-8)等**‌。
+> **除了L4发动机，常见的汽车发动机类型还包括[V6发动机](https://www.baidu.com/s?wd=V6发动机)、[V8发动机](https://www.baidu.com/s?wd=V8发动机8)、[V12发动机](https://www.baidu.com/s?wd=V12发动机)、[W18发动机](https://www.baidu.com/s?wd=W18发动机)等**‌。
 >
 > V6发动机: V6发动机是指所有汽缸分成两组，每组三个汽缸，以一定的夹角（通常是60度或90度）排列，形成V字形。这种布局使得发动机的高度和长度尺寸较小，适合在汽车上布置。V6发动机通常用于中高档车型，如君威、帕萨特及奥迪A6等。其优点是运转稳定、节省空间，但结构复杂，成本较高‌。
 >
@@ -122,11 +122,11 @@
 
 #### 发动机功率
 
-**发动机功率是指发动机在单位时间内所做的功，通常用马力（PS）或千瓦（kW）来表示**‌。发动机的功率越高，说明其性能越强，能产生的扭矩也越大，车辆加速、爬坡等能力也就越出色。发动机功率是衡量发动机工作能力的重要指标，它表示发动机每秒钟能够完成多少功，单位时间内功率越大，说明发动机的工作效率越高。‌
+**发动机功率是指发动机在单位时间内所做的功，通常用马力（PS）或千瓦（kW）来表示。** 发动机的功率越高，说明其性能越强，能产生的扭矩也越大，车辆加速、爬坡等能力也就越出色。发动机功率是衡量发动机工作能力的重要指标，它表示发动机每秒钟能够完成多少功，单位时间内功率越大，说明发动机的工作效率越高。‌
 
 #### 发动机扭矩
 
-**发动机扭矩是指发动机从曲轴端输出的力矩，是衡量发动机性能的重要参数。**‌扭矩简单理解为发动机的力量。扭矩反映了汽车在一定范围内的负载能力，特别是在车辆的起步、加速和爬坡等方面表现出色。‌
+**发动机扭矩是指发动机从曲轴端输出的力矩，是衡量发动机性能的重要参数。**‌ 扭矩简单理解为发动机的力量。扭矩反映了汽车在一定范围内的负载能力，特别是在车辆的起步、加速和爬坡等方面表现出色。‌
 
 ### 变速箱
 
