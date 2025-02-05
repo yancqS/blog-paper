@@ -7,17 +7,19 @@ categories:
   - Vue
 abbrlink: fdfc6518
 ---
+
 # Vue3 one piece
 
 ## 前言
 
-Vue3发布有一段时间啦，也一直在关注Vue3带来的新特性，也在看不少业界大佬分享的一些文章。时逢元旦，正所谓“新年新气象”，新的一年，我也决定系统的学习一下新版本的Vue——Vue3。本文打算主要学习一下Vue3的主要的新特性—— **Composition API**。
+Vue3发布有一段时间啦，也一直在关注Vue3带来的新特性，也在看不少业界大佬分享的一些文章。时逢元旦，正所谓“新年新气象”，新的一年，我也决定系统的学习一下新版本的Vue——Vue3。本文打算主要学习一下Vue3的主要的新特性——
+**Composition API**。
 
->讲真的，我超喜欢one piece这个版本名字。
+> 讲真的，我超喜欢one piece这个版本名字。
 
 ## 初始化项目
 
-1. 安装vue-cli
+### 安装vue-cli
 
 ```
 npm install -g @vue/cli
@@ -25,13 +27,13 @@ npm install -g @vue/cli
 yarn global add @vue/cli
 ```
 
-2. 创建项目
+### 创建项目
 
 ```
 vue create vue3-test
 ```
 
-3. 配置如下
+### 配置如下
 
 ![](http://img.up-4ever.site/20210102141931.png)
 
@@ -39,17 +41,17 @@ vue create vue3-test
 
 setup函数是一个**新的组件选项**，作为在组件内使用 Composition API 的入口点。
 
->所谓组件选项即 诸如：data, methods, directives, watch, computed, mounted, props, name,  filters(3.0已删除)等等~~
+> 所谓组件选项即 诸如：data, methods, directives, watch, computed, mounted, props, name, filters(3.0已删除)等等~~
 
 - 调用时机
 
-    创建组件实例，然后初始化`props`，紧接着就调用`setup`函数。从生命周期钩子的视角来看，它会在`beforeCreate`钩子之前被调用。
-    
+  创建组件实例，然后初始化`props`，紧接着就调用`setup`函数。从生命周期钩子的视角来看，它会在`beforeCreate`钩子之前被调用。
+
 - 模板中使用
 
-    如果`setup`返回一个对象，则对象的属性将会被**合并到组件模板的渲染上下文**：
-    
-```html
+  如果`setup`返回一个对象，则对象的属性将会被**合并到组件模板的渲染上下文**：
+
+```vue
 /* Home.vue */
 <template>
   <div class="home">
@@ -85,7 +87,7 @@ export default defineComponent({
 </script>
 ```
 
->注意`setup`返回的ref在模板中会自动解开，**不**需要写`.value`。
+> 注意`setup`返回的ref在模板中会自动解开，**不**需要写`.value`。
 
 - 在渲染函数/JSX中使用
 
@@ -93,9 +95,9 @@ export default defineComponent({
 
 新建了一个`render.vue`
 
->里面用到的渲染函数的部分写法与vue2.x有些不同，后续会总结
+> 里面用到的渲染函数的部分写法与vue2.x有些不同，后续会总结
 
-```html
+```vue
 /* render.vue */
 <script lang="ts">
 import { h, reactive, ref } from "vue";
@@ -171,7 +173,7 @@ export default defineComponent({
 
 该函数接受`props`作为其第一个参数:
 
-```html
+```vue
 /* HelloWorld.vue */
 ...
 <script lang="ts">
@@ -223,7 +225,7 @@ export default defineComponent({
 
 同时在`Home.vue`中改变传入`HelloWorld.vue`的msg值：
 
-```html
+```vue
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
@@ -297,7 +299,7 @@ export default defineComponent({
 
 第二个参数提供了一个上下文对象，从原来2.x中`this`选择性地暴露了一些property。
 
-```html
+```vue
 /* HelloWorld.vue */
 ...
 <script lang="ts">
@@ -328,7 +330,7 @@ export default defineComponent({
 
 `attrs`和`slots`都是都是内部组件实例上对应项的代理(Proxy)，可以确保在更新后仍然是最新值。所以可以解构，无需担心后面访问到过期的值：
 
-```js
+```vue
 /* HelloWorld.vue */
 ...
 export default defineComponent({
@@ -381,7 +383,7 @@ console.log(count.value); // 1
 
 当 ref 作为渲染上下文的属性返回（即在setup() 返回的对象中）并在模板中使用时，它会自动解套，无需在模板内额外书写 `.value`：
 
-```html
+```vue
 <template>
     <div>{{count}}</div>
 </template>
@@ -575,13 +577,13 @@ export default defineComponent({
 </script>
 ```
 
->如果尝试修改只读属性：copy.value++, 此行为会被阻止并且抛出警告。
+> 如果尝试修改只读属性：copy.value++, 此行为会被阻止并且抛出警告。
 
 ### watchEffect
 
 立即执行一个传入函数，并响应式追踪其依赖，并在其依赖变更时重新运行该函数。
 
->参考上面代码:point_up_2:
+> 参考上面代码
 
 #### 停止侦听
 
@@ -634,7 +636,8 @@ export default defineComponent({
 
 有时副作用函数会执行一些异步的副作用, 这些响应需要在其失效时清除（**即完成之前状态已改变了**）。
 
-所以侦听副作用传入的函数可以接收一个 `onInvalidate` 函数作入参, 用来注册清理失效时的回调。当以下情况发生时，这个失效回调会被触发:
+所以侦听副作用传入的函数可以接收一个 `onInvalidate` 函数作入参,
+用来注册清理失效时的回调。当以下情况发生时，这个失效回调会被触发:
 
 - 副作用即将重新执行时
 - 侦听器被停止 (如果在 `setup()` 或 生命周期钩子函数中使用了 `watchEffect`, 则在卸载组件时)
@@ -663,9 +666,10 @@ watchEffect((onInvalidate) => {
 
 #### 副作用刷新时机
 
-Vue 的响应式系统会缓存副作用函数，并异步地刷新它们，这样可以避免同一个 tick 中多个状态改变导致的不必要的重复调用。在核心的具体实现中, 组件的更新函数也是一个被侦听的副作用。当一个用户定义的副作用函数进入队列时, 会在所有的**组件更新后**执行：
+Vue 的响应式系统会缓存副作用函数，并异步地刷新它们，这样可以避免同一个 tick 中多个状态改变导致的不必要的重复调用。在核心的具体实现中,
+组件的更新函数也是一个被侦听的副作用。当一个用户定义的副作用函数进入队列时, 会在所有的**组件更新后**执行：
 
-```html
+```vue
 <template>
   <div>{{ count }}</div>
 </template>
@@ -692,7 +696,8 @@ Vue 的响应式系统会缓存副作用函数，并异步地刷新它们，这�
 - `count`会在初始化时同步打印出来
 - 更改`count`时，将在组件**更新后**执行副作用
 
-请注意，初始化运行是在组件 `mounted` 之前执行的。因此，如果你希望在编写副作用函数时访问 DOM（或模板 ref），请在 `onMounted` 钩子中进行：
+请注意，初始化运行是在组件 `mounted` 之前执行的。因此，如果你希望在编写副作用函数时访问 DOM（或模板 ref），请在 `onMounted`
+钩子中进行：
 
 ```js
 onMounted(() => {
@@ -750,11 +755,12 @@ watchEffect(
 )
 ```
 
->`onTrack`和`onTrigger`仅在开发模式下生效。
+> `onTrack`和`onTrigger`仅在开发模式下生效。
 
 ### watch
 
-`watch`API完全等效于2.x `this.$watch` (以及`watch`中相应的选项)。`watch`需要侦听特定的数据源，并在回调函数中执行副作用。默认情况是懒执行的，也就是说尽在侦听的源变更时才执行回调。
+`watch`API完全等效于2.x `this.$watch` (以及`watch`中相应的选项)。`watch`
+需要侦听特定的数据源，并在回调函数中执行副作用。默认情况是懒执行的，也就是说尽在侦听的源变更时才执行回调。
 
 - 对比`watchEffect`，`watch`允许我们：
     - 懒执行副作用；
@@ -786,7 +792,7 @@ watch(count, (count, prevCount) => {
 
 `watcher`也可以使用**数组**来同时侦听多个源：
 
-```js
+```vue
 /* Home.vue */
 <script lang="ts">
 import { defineComponent, reactive, ref, watch } from "vue";
@@ -854,7 +860,8 @@ export default defineComponent({
 
 - 与watchEffect共享的行为
 
-watch 和 watchEffect 在`停止侦听`, `清除副作用` (相应地 onInvalidate 会作为回调的第三个参数传入)，`副作用刷新时机` 和 `侦听器调试` 等方面行为一致.
+watch 和 watchEffect 在`停止侦听`, `清除副作用` (相应地 onInvalidate 会作为回调的第三个参数传入)，`副作用刷新时机`
+和 `侦听器调试` 等方面行为一致.
 
 ## 声明周期钩子函数
 
@@ -901,13 +908,13 @@ export declare const onUpdated: (hook: () => any, target?: ComponentInternalInst
 
 - 新增的钩子函数
 
-    除了和 2.x 生命周期等效项之外，组合式 API 还提供了以下调试钩子函数：
+  除了和 2.x 生命周期等效项之外，组合式 API 还提供了以下调试钩子函数：
 
     - onRenderTracked
     - onRenderTriggered
-    
-    两个钩子函数都接收一个 `DebuggerEvent`，与 `watchEffect` 参数选项中的 `onTrack` 和 `onTrigger` 类似：
-    
+
+  两个钩子函数都接收一个 `DebuggerEvent`，与 `watchEffect` 参数选项中的 `onTrack` 和 `onTrigger` 类似：
+
     ```js
     export default {
         setup() {
@@ -918,6 +925,7 @@ export declare const onUpdated: (hook: () => any, target?: ComponentInternalInst
         }
     }
     ```
+
 ## 依赖注入
 
 `provide` 和 `inject` 提供依赖注入，功能类似2.x的`provide/inject`。两者都只能在当前活动组件示例的 `setup()` 中调用。
@@ -942,11 +950,13 @@ setup() {
 }
 ```
 
-`inject` 接受一个可选的的默认值作为第二个参数。如果未提供默认值，并且在 `provide` 上下文中未找到该属性，则 `inject` 返回 `undefined`。
+`inject` 接受一个可选的的默认值作为第二个参数。如果未提供默认值，并且在 `provide` 上下文中未找到该属性，则 `inject`
+返回 `undefined`。
 
 ## 模板Refs
 
-当使用组合式 API 时，reactive refs 和 template refs 的概念已经是统一的。为了获得对模板内元素或组件实例的引用，我们可以像往常一样在 `setup()` 中声明一个 ref 并返回它：
+当使用组合式 API 时，reactive refs 和 template refs
+的概念已经是统一的。为了获得对模板内元素或组件实例的引用，我们可以像往常一样在 `setup()` 中声明一个 ref 并返回它：
 
 ```diff
 /* Home.vue */
@@ -980,7 +990,8 @@ export default defineComponent({
 </script>
 ```
 
-这里我们将 `img` 暴露在渲染上下文中，并通过 `ref="img"` 绑定到 `img` 作为其 ref。 在 Virtual DOM patch 算法中，如果一个 VNode 的 `ref` 对应一个渲染上下文中的 ref，则该 VNode 对应的元素或组件实例将被分配给该 ref。
+这里我们将 `img` 暴露在渲染上下文中，并通过 `ref="img"` 绑定到 `img` 作为其 ref。 在 Virtual DOM patch 算法中，如果一个
+VNode 的 `ref` 对应一个渲染上下文中的 ref，则该 VNode 对应的元素或组件实例将被分配给该 ref。
 
 - 配合 render 函数 / JSX 的用法
 
@@ -1089,9 +1100,9 @@ console.log(fooRef.value) // 3
 
 当您要将一个prop中的属性作为ref传给组合逻辑函数时, `toRef`就派上了用场：
 
->注意：在开发过程中，props 对象对用户空间代码是不可变的。
+> 注意：在开发过程中，props 对象对用户空间代码是不可变的。
 
-```js
+```vue
 /* HelloWorld.vue */
 import { Ref, ref, toRef } from "vue";
 
@@ -1111,7 +1122,7 @@ setup(props, ctx) {
 
 `toRef`源码实现如下：
 
->注释是我加的
+> 注释是我加的
 
 ```js
 class ObjectRefImpl {
@@ -1162,7 +1173,8 @@ stateAsRefs.foo.value++
 console.log(state.foo) // 3
 ```
 
-当想要从一个组合逻辑函数中返回响应式对象时，用 `toRefs` 是很有效的，该 API 让消费组件可以 解构 / 扩展（使用 `...` 操作符）返回的对象，并不会丢失响应性：
+当想要从一个组合逻辑函数中返回响应式对象时，用 `toRefs` 是很有效的，该 API 让消费组件可以 解构 / 扩展（使用 `...`
+操作符）返回的对象，并不会丢失响应性：
 
 ```js
 function useFeatureX() {
@@ -1227,7 +1239,8 @@ function toRefs(object) {
 
 ### customRef
 
-`customRef`用于自定义一个 `ref`，**可以显式地控制依赖追踪和触发响应**，接受一个工厂函数，两个参数分别是用于追踪的 `track` 与用于触发响应的 `trigger`，并返回一个带有 `get` 和 `set` 属性的对象。
+`customRef`用于自定义一个 `ref`，**可以显式地控制依赖追踪和触发响应**，接受一个工厂函数，两个参数分别是用于追踪的 `track`
+与用于触发响应的 `trigger`，并返回一个带有 `get` 和 `set` 属性的对象。
 
 - 使用自定义的ref实现带防抖功能的`v-model`:
 
@@ -1287,9 +1300,11 @@ function customRef(factory) {
 }
 ```
 
-以上面例子为例，调用`useDebouncedRef()`函数，其实最终返回的是`CustomRefImpl`的一个实例对象；当获取text的值时，会触发get value()方法，进而执行this._get()方法，这个this._get()方法就是工厂函数返回的get()。在get()方法中调用了track()，也就是`() => track(this, "get" /* GET */, 'value')`。
+以上面例子为例，调用`useDebouncedRef()`函数，其实最终返回的是`CustomRefImpl`的一个实例对象；当获取text的值时，会触发get
+value()方法，进而执行this._get()方法，这个this._get()方法就是工厂函数返回的get()。在get()方法中调用了track()
+，也就是`() => track(this, "get" /* GET */, 'value')`。
 
->set同理
+> set同理
 
 ### markRaw
 
@@ -1308,11 +1323,12 @@ console.log(toRaw(reactiveFoo) === foo) // true
 
 ## 最后
 
-参照Vue组合式API的官网，里面的大多数api都测试了一下。我感觉里面出现次数最多的两个字就是`代理`，也就是`Proxy`, 可以看出 Vue3 利用 ES6 中的 Proxy 解决了Vue2的一些问题，比如对象新增属性的追踪。(Vue2中利用this.$set()来解决的)
+参照Vue组合式API的官网，里面的大多数api都测试了一下。我感觉里面出现次数最多的两个字就是`代理`，也就是`Proxy`, 可以看出 Vue3
+利用 ES6 中的 Proxy 解决了Vue2的一些问题，比如对象新增属性的追踪。(Vue2中利用this.$set()来解决的)
 
->Vue2通过Object.defineProperty来将对象的key转换成getter/setter的形式来追踪变化，但是getter/setter只能追踪一个数据是否被修改，无法追踪新增属性和删除属性。
+> Vue2通过Object.defineProperty来将对象的key转换成getter/setter的形式来追踪变化，但是getter/setter只能追踪一个数据是否被修改，无法追踪新增属性和删除属性。
 
->Object.defineProperty是一个相对比较昂贵的操作，因为它直接操作对象的属性，颗粒度比较小。将它替换为es6的Proxy，在目标对象之上架了一层拦截，代理的是对象而不是对象的属性。这样可以将原本对对象属性的操作变为对整个对象的操作，颗粒度变大。
+Object.defineProperty是一个相对比较昂贵的操作，因为它直接操作对象的属性，颗粒度比较小。将它替换为es6的Proxy，在目标对象之上架了一层拦截，代理的是对象而不是对象的属性。这样可以将原本对对象属性的操作变为对整个对象的操作，颗粒度变大。
 
 其次，组合式api非常的灵活，可以单独写在一个函数里面，提高复用性。
 
